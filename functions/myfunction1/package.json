@@ -1,7 +1,6 @@
 {
-  "name": "myfunction-function",
+  "name": "myfunction1-function",
   "version": "0.0.1",
-  "type": "module",
   "author": "TODO",
   "description": "TODO",
   "license": "UNLICENSED",
@@ -10,7 +9,7 @@
     "type": "git"
   },
   "engines": {
-    "node": "^18.2"
+    "node": "^16.9"
   },
   "scripts": {
     "lint": "eslint . --ext .js --config .eslintrc",
@@ -19,7 +18,7 @@
   "devDependencies": {
     "chai": "^4.3.4",
     "eslint": "^6.8.0",
-    "mocha": "^10.0.0",
+    "mocha": "^8.4.0",
     "sinon": "^10.0.0"
   }
 }
